@@ -1,0 +1,111 @@
+{
+
+  "basic_info": {
+    "description_header": "Merhaba",
+    "description": "Adım Ahmet İlboga. Küçük yaşlarımdan itibaren yazılıma ilgi duydum ve bilgisayarlarla tanıştığımdan beri bu alanda kendimi geliştirmeye çalışıyorum. Bilgisayar benim için bir arkadaş gibidir; projelerimi onunla hayata geçiririm. Yazılım maceram, HTML ve CSS öğrenmekle başladı. Sonrasında Python ve veritabanlarıyla tanıştım. Tkinter, Django ve Flask gibi kütüphaneleri kullanarak Masaüstü uygulamaları ve Web uygulamaları geliştirdim. Web geliştirme alanında ilerlemek istiyorum ve bu tutkulu yolculukta daha fazla şey keşfetmeyi umuyorum.",
+    "section_name": {
+      "about": "Hakkımda",
+      "projects": "Projeler",
+      "skills": "Yetenekler",
+      "experience": "Deneyim"
+    }
+  },
+  "projects": [
+    {
+      "title": "Kütüphane Yönetim Uygulaması",
+      "startDate": "2022",
+      "description": "Lise döneminde okulum için geliştirdiğim ve aynı zamanda ilk projem olan kütüphane otomasyon sistemi.",
+      "images": [
+        "images/portfolio/library-management/library-management.jpg",
+        "images/portfolio/library-management/library-management.png"
+      ],
+      "url": "https://github.com/ahmetilboga2004/Library-Management",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Tkinter"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "CV Oluşturucu Web Uygulaması",
+      "startDate": "2022",
+      "description": "İnsanların kolayca ve hızlı bir şekilde özgeçmiş oluşturabilmelerini ve PDF olarak indirebilmelerini sağlayan bir web uygulaması. Ancak deneyimsizliğim nedeniyle projem istediğim gibi gitmedi ve birçok hata yaptım.",
+      "images": [
+        "images/portfolio/cv-maker/cv-maker.jpeg",
+        "images/portfolio/cv-maker/cv-maker-2.jpeg"
+      ],
+      "url": "https://ahmetilboga2004.github.io/cv-maker",
+      "technologies": [
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        }
+      ]
+    },
+    {
+      "title": "Renk Değiştirici",
+      "startDate": "2023",
+      "description": "Rastgele renkler oluşturan küçük bir web uygulaması.",
+      "images": [
+        "images/portfolio/color-flipper/color-flipper.jpeg",
+        "images/portfolio/color-flipper/color-flipper-2.jpeg"
+      ],
+      "url": "https://ahmetilboga2004.github.io/color-flipper/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "TODO List Mini Uygulama",
+      "startDate": "2023",
+      "description": "JavaScript eğitim kursunun bitirme projesi olarak geliştirdiğim bir Todo List uygulaması.",
+      "images": [
+        "images/portfolio/todo-list/todo-list.jpeg",
+        "images/portfolio/todo-list/todo-list-2.jpeg"
+      ],
+      "url": "https://ahmetilboga2004.github.io/todo-list/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    }
+  ]
+}
