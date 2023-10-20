@@ -30,37 +30,32 @@
         },
         {
           "name": "JavaScript",
-          "class": "devicon-angularjs-plain",
+          "class": "devicon-javascript-plain",
           "level": "80"
         },
         {
           "name": "Bootstrap 5",
-          "class": "devicon-typescript-plain",
+          "class": "devicon-bootstrap-plain",
           "level": "90"
         },
         {
           "name": "Python",
-          "class": "devicon-javascript-plain",
+          "class": "devicon-python-plain",
           "level": "70"
         },
         {
-          "name": "Requests",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
           "name": "Flask",
-          "class": "devicon-bootstrap-plain",
+          "class": "devicon-flask-plain",
           "level": "80"
         },
         {
-          "name": "Django#",
-          "class": "devicon-csharp-plain",
+          "name": "Django",
+          "class": "devicon-django-plain",
           "level": "70"
         },
         {
           "name": "Tkinter",
-          "class": "devicon-mysql-plain",
+          "class": "devicon-python-plain",
           "level": "60"
         }
       ]
