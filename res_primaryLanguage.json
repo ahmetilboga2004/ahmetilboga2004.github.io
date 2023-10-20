@@ -41,7 +41,7 @@
         "url": "https://github.com/ahmetilboga2004/cv-maker",
         "technologies": [
           {
-            "class": "devicon-bootstrap-original",
+            "class": "devicon-bootstrap-plain",
             "name": "Bootstrap"
           },
           {
@@ -49,11 +49,11 @@
             "name": "JavaScript"
           },
           {
-            "class": "devicon-html-plain",
+            "class": "devicon-html5-plain",
             "name": "Html"
           },
           {
-            "class":"devicon-css-plain",
+            "class":"devicon-css3-plain",
             "name": "Css"
           }
         ]
@@ -69,11 +69,11 @@
         "url": "https://ahmetilboga2004.github.io/color-flipper/",
         "technologies": [
           {
-            "class": "devicon-html-plain",
+            "class": "devicon-html5-plain",
             "name": "Html"
           },
           {
-            "class": "devicon-css-plain",
+            "class": "devicon-css3-plain",
             "name": "Css"
           },
           {
@@ -93,11 +93,11 @@
         "url": "https://ahmetilboga2004.github.io/todo-list/",
         "technologies": [
           {
-            "class": "devicon-html-plain",
+            "class": "devicon-html5-plain",
             "name": "Html"
           },
           {
-            "class": "devicon-css-plain",
+            "class": "devicon-css3-plain",
             "name": "Css"
           },
           {
