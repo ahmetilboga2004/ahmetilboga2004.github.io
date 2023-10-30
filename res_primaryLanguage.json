@@ -135,7 +135,6 @@
         "description": "Bu uygulama bir markdown öğretici sitesidir. Bu sitenin basit tasarımı sayesinde markdown'ı öğrenmeye odaklanabileceksiniz. Ve öğreticiyi derslere ayırdım. her dersin sonunda sizi süpriz bir soru bekliyor böylece anladığınığını pekiştirebileceksiniz. Ayrıca Editör sayfası hazırladım. bu sayfada markdown kodlarınızı yazıp hızlıca nasıl göründüğüne bakabileceksiniz.",
         "images": [
           "images/portfolio/markdown-hub/markdownhub-1.jpeg",
-          "images/portfolio/markdown-hub/markdownhub-2.jpeg",
           "images/portfolio/markdown-hub/markdownhub-3.jpeg",
           "images/portfolio/markdown-hub/markdownhub-4.jpeg"
         ],
