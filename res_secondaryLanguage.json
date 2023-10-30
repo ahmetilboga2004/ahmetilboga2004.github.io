@@ -106,6 +106,59 @@
           "name": "JavaScript"
         }
       ]
+    },
+    {
+      "title": "Video In Search",
+      "startDate": "2023",
+      "description": "Bu uygulama ile videolarda izlemek istediğini yerlere hızlıca ulaşmak için video içinde kelime arayarak size videonun hangi yerlerinde aradağınız kelimenin geçtiğini bulan bir Flask projesi. Ancak şuanda kullanılamıyor çünkü projeyi geliştirirken Bir AI apisi kullandım. ve Ücretsiz Token kullanım limitim doldurdum.",
+      "images": [
+        "images/portfolio/video-in-search/video-in-search.jpeg"
+      ],
+      "url": "https://video-in-search.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-flask-plain",
+          "name": "Flask"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap 5"
+        }
+      ]
+    },
+    {
+      "title": "MarkDownHub",
+      "startDate": "2023",
+      "description": "This application is a markdown tutorial site. Thanks to the simple design of this site, you will be able to focus on learning markdown. And I divided the tutorial into classes. at the end of each lesson, a surprise question awaits you so that you can reinforce what you understand. I also created an Editorial page. on this page, you will be able to type in your markdown codes and quickly see how they look.",
+      "images": [
+        "images/portfolio/markdown-hub/markdownhub-1.jpeg",
+        "images/portfolio/markdown-hub/markdownhub-2.jpeg",
+        "images/portfolio/markdown-hub/markdownhub-3.jpeg",
+        "images/portfolio/markdown-hub/markdownhub-4.jpeg"
+      ],
+      "url": "https://markdown-hub.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-flask-plain",
+          "name": "Flask"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-sql-plain",
+          "name": "Sqlite3"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap 5"
+        }
+      ]
     }
   ]
 }
