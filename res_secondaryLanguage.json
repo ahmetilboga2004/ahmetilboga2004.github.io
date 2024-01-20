@@ -1,5 +1,4 @@
 {
-
   "basic_info": {
     "description_header": "Merhaba",
     "description": "Adım Ahmet İlboga. Küçük yaşlarımdan itibaren yazılıma ilgi duydum ve bilgisayarlarla tanıştığımdan beri bu alanda kendimi geliştirmeye çalışıyorum. Bilgisayar benim için bir arkadaş gibidir; projelerimi onunla hayata geçiririm. Yazılım maceram, HTML ve CSS öğrenmekle başladı. Sonrasında Python ve veritabanlarıyla tanıştım. Tkinter, Django ve Flask gibi kütüphaneleri kullanarak Masaüstü uygulamaları ve Web uygulamaları geliştirdim. Web geliştirme alanında ilerlemek istiyorum ve bu tutkulu yolculukta daha fazla şey keşfetmeyi umuyorum.",
@@ -152,6 +151,39 @@
         {
           "class": "devicon-sql-plain",
           "name": "Sqlite3"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap 5"
+        }
+      ]
+    },
+    {
+      "title": "ShortLink App",
+      "startDate": "2023",
+      "description": "ShortLink, uzun URL'leri verimli bir şekilde kısaltan ve kullanıcıların bağlantıları hızlı ve etkili bir şekilde paylaşmasını sağlayan basit ve kullanıcı dostu bir bağlantı kısaltma hizmetidir.",
+      "images": [
+        "images/portfolio/short-link/short-link-1.png",
+        "images/portfolio/short-link/short-link-2.png",
+        "images/portfolio/short-link/short-link-3.png",
+        "images/portfolio/short-link/short-link-4.png",
+        "images/portfolio/short-link/short-link-5.png",
+        "images/portfolio/short-link/short-link-6.png",
+        "images/portfolio/short-link/short-link-7.png"
+      ],
+      "url": "https://short-link-flax.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node Js"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
         },
         {
           "class": "devicon-bootstrap-plain",
