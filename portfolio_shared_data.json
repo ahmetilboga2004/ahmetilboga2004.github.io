@@ -1,63 +1,66 @@
 {
-    "basic_info": {
-      "name": "Ahmet İlboga",
-      "titles": ["Web Developer", "Back-end Developer", "Front-end Developer", "Web Developer", "Student" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/ahmetilboga2004",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com/ahmet_ilboga47/",
-          "class": "fab fa-instagram"
-        }
-      ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "80"
-        },
-        {
-          "name": "Bootstrap 5",
-          "class": "devicon-bootstrap-plain",
-          "level": "90"
-        },
-        {
-          "name": "Python",
-          "class": "devicon-python-plain",
-          "level": "70"
-        },
-        {
-          "name": "Flask",
-          "class": "devicon-flask-plain",
-          "level": "80"
-        },
-        {
-          "name": "Django",
-          "class": "devicon-django-plain",
-          "level": "70"
-        },
-        {
-          "name": "Tkinter",
-          "class": "devicon-python-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Ahmet İlboga",
+    "titles": [
+      "FullStack Web Developer",
+      "Student"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/ahmetilboga2004",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/ahmet_ilboga47/",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "80"
+      },
+      {
+        "name": "Bootstrap 5",
+        "class": "devicon-bootstrap-plain",
+        "level": "90"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "70"
+      },
+      {
+        "name": "Flask",
+        "class": "devicon-flask-plain",
+        "level": "80"
+      },
+      {
+        "name": "Django",
+        "class": "devicon-django-plain",
+        "level": "70"
+      },
+      {
+        "name": "Tkinter",
+        "class": "devicon-python-plain",
+        "level": "60"
+      }
+    ]
   }
+}
