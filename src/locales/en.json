@@ -1,0 +1,86 @@
+{
+  "lang": "Language",
+  "profile": {
+    "name": "Ahmet İlboğa",
+    "location": {
+      "country": "Turkey",
+      "birthPlace": "Mardin",
+      "currentCity": "Van"
+    },
+    "age": 20,
+    "profession": "Backend Developer",
+    "biography": "Hello, I'm Ahmet İlboğa. I was born in Mardin and currently live in Van. I completed my associate degree in Computer Programming at Mardin Artuklu University. I'm constantly researching and learning new things. Like you, I'm on an endless journey of learning.",
+    "profilePicture": "assets/avatar.png",
+    "education": {
+      "degree": "Associate's Degree",
+      "field": "Computer Programming",
+      "university": "Mardin Artuklu University",
+      "graduationYear": null
+    },
+    "experience": {
+      "activeYears": 2,
+      "companiesWorkedFor": [],
+      "freelanceExperience": true,
+      "currentCompany": null,
+      "otherJobs": []
+    },
+    "projects": [
+      {
+        "name": "E-Commerce Backend",
+        "description": "Developed the backend for an e-commerce site; managed API requests, database administration, and server-side logic."
+      },
+      {
+        "name": "Freelance Platform",
+        "description": "Built a freelance platform using Node.js, Express.js, PostgreSQL, Redis, and Vue.js."
+      },
+      {
+        "name": "URL Shortening Service",
+        "description": "Developed a URL shortening service with Node.js, Express.js, Bootstrap, and Nunjucks."
+      },
+      {
+        "name": "Markdown Tutorial Site",
+        "description": "Created a markdown tutorial site using Flask while learning Python."
+      },
+      {
+        "name": "Web-Based API Client",
+        "description": "Currently developing a web-based API client application."
+      }
+    ],
+    "skills": {
+      "languages": ["JavaScript", "Python", "HTML", "CSS", "SQL"],
+      "technologies": [
+        "Node.js",
+        "Redis",
+        "PostgreSQL",
+        "MongoDB",
+        "Express.js",
+        "Vue.js",
+        "Docker",
+        "Nginx",
+        "pgAdmin",
+        "MongoDB Compass",
+        "Winston",
+        "Postman",
+        "JWT",
+        "SuperTokens"
+      ],
+      "currentlyLearning": [
+        "NestJS",
+        "Server-Side Load Balancing",
+        "Monitoring",
+        "API Gateway",
+        "Microservices",
+        "Database and Server Performance Optimization"
+      ]
+    },
+    "interests": ["Reading Books", "Watching articles and videos on Web Application Security"],
+    "futureGoals": ["To specialize in Web3"],
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/ahmet-ilboga/",
+      "github": "https://github.com/ahmetilboga2004",
+      "discord": "https://discord.gg/sGXGJRWK84",
+      "instagram": "https://www.instagram.com/ahmet_ilboga47/",
+      "telegram": "https://t.me/ai2py"
+    }
+  }
+}
