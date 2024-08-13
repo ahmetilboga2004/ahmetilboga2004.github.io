@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://ahmetilboga2004.github.io",
+  "homepage": "https://ahmetilboga2004.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
