@@ -1,44 +1,48 @@
 # GitHub Pages Deployment Guide
 
-Projeyi `ahmetilboga2004.github.io` adresinde yayınlamak için aşağıdaki adımları sırasıyla uygulayın.
+Projeyi `ahmetilboga2004.github.io` adresinde yayınlamak için iki yöntem vardır. Eğer hesabınızda faturalandırma (billing) veya Actions hatası alıyorsanız **Yöntem 2'yi** kullanın.
 
-## 1. GitHub'da Repo Oluşturun
+## Yöntem 1: Otomatik (GitHub Actions ile) -- _Hata aldıysanız bunu atlayın_
 
-1.  GitHub hesabınıza giriş yapın.
-2.  Yeni bir repository oluşturun.
-3.  **Repository name** kısmına **kesinlikle** şunu yazın: `ahmetilboga2004.github.io`
-    - _Bu isimlendirme önemlidir, çünkü GitHub bu formatı gördüğünde sitenizi otomatik olarak ana domainde yayınlar._
-4.  "Public" seçin ve repoyu oluşturun.
+1.  GitHub'da `ahmetilboga2004.github.io` adında repo oluşturun.
+2.  Kodları pushlayın.
+3.  GitHub Settings > Pages > Source: **GitHub Actions** seçin (veya branch ayarını yapın).
 
-## 2. Projeyi GitHub'a Gönderin
+---
 
-Aşağıdaki komutları terminalinizde (proje klasöründe) sırasıyla çalıştırın:
+## Yöntem 2: Manuel Deploy (Hata Alanlar İçin Kesin Çözüm) ✅
+
+Eğer "Billing issue" veya "Actions failed" hatası alıyorsanız bu yöntemi kullanın. Projeyi kendi bilgisayarınızda derleyip gönderir.
+
+### 1. Hazırlık (Sadece bir kere yapılır)
+
+Terminalde şu komutla gerekli paketi yükleyin (ben zaten yükledim ama emin olmak için çalıştırabilirsiniz):
 
 ```bash
-# Değişiklikleri Git'e ekle
-git add .
-git commit -m "Portfolio ready for deployment"
-
-# GitHub reposunu tanıt (Eğer daha önce eklemediyseniz)
-# NOT: Aşağıdaki linki kendi oluşturduğunuz repo linkiyle değiştirin!
-git remote add origin https://github.com/ahmetilboga2004/ahmetilboga2004.github.io.git
-
-# Eğer 'origin' zaten var derse, şunu kullanın:
-# git remote set-url origin https://github.com/ahmetilboga2004/ahmetilboga2004.github.io.git
-
-# Kodları gönder
-git branch -M main
-git push -u origin main
+npm install gh-pages --save-dev
 ```
 
-## 3. GitHub Ayarlarını Yapın
+### 2. Deploy Etme (Her güncellemede yapılır)
 
-Kodları gönderdikten yaklaşık 1-2 dakika sonra **GitHub Actions** devreye girecek ve sitenizi derleyip `gh-pages` adında bir branch'e atacak. Bu işlem bitince:
+Sitenizi yayınlamak veya güncellemek için sadece şu komutu çalıştırın:
 
-1.  Reponuzun **Settings** (Ayarlar) sekmesine gidin.
-2.  Sol menüden **Pages** seçeneğine tıklayın.
-3.  **Build and deployment** altında **Source** kısmını `Deploy from a branch` olarak bırakın.
-4.  **Branch** kısmında `gh-pages` seçin ve yanındaki klasör kısmını `/ (root)` olarak bırakın.
-5.  **Save** butonuna basın.
+```bash
+npm run deploy
+```
 
-Birkaç dakika içinde siteniz `https://ahmetilboga2004.github.io` adresinde yayında olacaktır!
+Bu komut otomatik olarak:
+
+1.  Projeyi derler (`npm run build`).
+2.  `dist` klasörünü oluşturur.
+3.  Bu klasörü GitHub'daki `gh-pages` branch'ine yükler.
+
+### 3. GitHub Ayarı (Önemli!)
+
+Komutu çalıştırdıktan sonra:
+
+1.  GitHub reponuzda **Settings** > **Pages** menüsüne gidin.
+2.  **Source** kısmında `Deploy from a branch` seçili olsun.
+3.  **Branch** kısmını `gh-pages` yapın ve `/ (root)` seçin.
+4.  **Save** butonuna basın.
+
+Birkaç dakika içinde siteniz `https://ahmetilboga2004.github.io` adresinde açılacaktır.
