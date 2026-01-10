@@ -52,7 +52,7 @@ import { ArrowUpRight } from 'lucide-vue-next'
             </div>
 
             <span
-              class="font-display text-2xl md:text-3xl lg:text-4xl font-semibold text-neutral-400 dark:text-neutral-300 group-hover:text-neutral-900 dark:group-hover:text-white transition-colors duration-300 break-words"
+              class="font-display text-2xl md:text-3xl lg:text-4xl font-semibold text-neutral-400 dark:text-neutral-300 group-hover:text-neutral-900 dark:group-hover:text-white transition-colors duration-300 wrap-break-word"
             >
               {{ social.label }}
             </span>
