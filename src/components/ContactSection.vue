@@ -6,10 +6,10 @@ import { ArrowUpRight } from 'lucide-vue-next'
 <template>
   <footer class="min-h-screen flex items-center py-20" aria-labelledby="contact-heading">
     <div
-      class="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-16 flex flex-col justify-between h-full max-h-[80vh]"
+      class="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-16 flex flex-col justify-center h-full"
     >
       <div class="flex-1 flex flex-col justify-center">
-        <header class="mb-12 md:mb-24">
+        <header class="mb-12 md:mb-16">
           <h2
             id="contact-heading"
             class="font-mono text-xs font-medium uppercase tracking-widest text-neutral-500 dark:text-neutral-500 transition-colors duration-300"
@@ -25,14 +25,14 @@ import { ArrowUpRight } from 'lucide-vue-next'
           </h2>
         </header>
 
-        <div class="grid gap-6 md:grid-cols-3">
+        <div class="grid gap-x-12 gap-y-16 md:grid-cols-2">
           <a
             v-for="(social, index) in SOCIALS"
             :key="social.id"
             :href="social.url"
             target="_blank"
             rel="noopener noreferrer"
-            class="group flex flex-col gap-4 py-8 border-t border-neutral-200 dark:border-neutral-900 md:border-t-0 md:border-l md:first:border-l-0 md:pl-12 md:first:pl-0 transition-colors duration-300"
+            class="group flex flex-col gap-2 transition-colors duration-300"
             v-motion
             :initial="{ opacity: 0, y: 30 }"
             :visibleOnce="{
@@ -52,7 +52,7 @@ import { ArrowUpRight } from 'lucide-vue-next'
             </div>
 
             <span
-              class="font-display text-2xl md:text-4xl font-semibold text-neutral-400 dark:text-neutral-300 group-hover:text-neutral-900 dark:group-hover:text-white transition-colors duration-300 truncate"
+              class="font-display text-2xl md:text-3xl lg:text-4xl font-semibold text-neutral-400 dark:text-neutral-300 group-hover:text-neutral-900 dark:group-hover:text-white transition-colors duration-300 break-words"
             >
               {{ social.label }}
             </span>
@@ -61,7 +61,7 @@ import { ArrowUpRight } from 'lucide-vue-next'
       </div>
 
       <div
-        class="pt-8 border-t border-neutral-200 dark:border-neutral-900 flex justify-between items-center text-xs font-mono text-neutral-500 dark:text-neutral-700 mt-auto transition-colors duration-300"
+        class="pt-16 md:pt-24 flex justify-between items-center text-xs font-mono text-neutral-500 dark:text-neutral-700 mt-auto transition-colors duration-300"
         v-motion
         :initial="{ opacity: 0 }"
         :visibleOnce="{ opacity: 1, transition: { duration: 1000, delay: 600, ease: 'linear' } }"

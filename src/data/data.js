@@ -72,4 +72,10 @@ export const SOCIALS = [
     url: 'https://www.linkedin.com/in/ahmet-ilboga/',
     label: 'Ahmet İlboğa',
   },
+  {
+    id: '4',
+    name: 'Instagram',
+    url: 'https://www.instagram.com/ahmet_ilboga47/',
+    label: '@ahmet_ilboga47',
+  },
 ]
