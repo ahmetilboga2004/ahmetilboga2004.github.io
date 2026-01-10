@@ -1,0 +1,12 @@
+# Robots.txt for ahmetilboga.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ahmetilboga.dev/sitemap.xml
+
+# Disallow admin or private paths (if any)
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /private/

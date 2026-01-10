@@ -1,11 +1,19 @@
-<script setup></script>
+<script setup>
+import HeroSection from '@/components/HeroSection.vue'
+import SkillsSection from '@/components/SkillsSection.vue'
+import ProjectsSection from '@/components/ProjectsSection.vue'
+import ExperienceSection from '@/components/ExperienceSection.vue'
+import ContactSection from '@/components/ContactSection.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main
+    class="min-h-screen overflow-x-hidden selection:bg-neutral-900 selection:text-white dark:selection:bg-neutral-50 dark:selection:text-neutral-950"
+  >
+    <HeroSection />
+    <SkillsSection />
+    <ProjectsSection />
+    <ExperienceSection />
+    <ContactSection />
+  </main>
 </template>
-
-<style scoped></style>
