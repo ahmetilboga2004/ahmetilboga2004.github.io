@@ -3,7 +3,7 @@ import { SKILLS } from '@/data/data'
 </script>
 
 <template>
-  <section class="min-h-screen flex items-center py-20" aria-labelledby="skills-heading">
+  <section class="min-h-dvh flex items-center py-20" aria-labelledby="skills-heading">
     <div class="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
       <header class="mb-12 md:mb-16">
         <h2

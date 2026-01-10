@@ -4,7 +4,7 @@ import { ArrowUpRight } from 'lucide-vue-next'
 </script>
 
 <template>
-  <footer class="min-h-screen flex items-center py-20" aria-labelledby="contact-heading">
+  <footer class="min-h-dvh flex items-center py-20" aria-labelledby="contact-heading">
     <div
       class="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-16 flex flex-col justify-center h-full"
     >

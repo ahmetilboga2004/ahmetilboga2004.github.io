@@ -8,7 +8,7 @@ import ContactSection from '@/components/ContactSection.vue'
 
 <template>
   <main
-    class="min-h-screen overflow-x-hidden selection:bg-neutral-900 selection:text-white dark:selection:bg-neutral-50 dark:selection:text-neutral-950"
+    class="min-h-dvh overflow-x-hidden selection:bg-neutral-900 selection:text-white dark:selection:bg-neutral-50 dark:selection:text-neutral-950"
   >
     <HeroSection />
     <SkillsSection />

@@ -4,7 +4,7 @@ import { MapPin, ArrowDown } from 'lucide-vue-next'
 </script>
 
 <template>
-  <section class="min-h-screen flex items-center py-16 md:py-20 relative" aria-label="Introduction">
+  <section class="min-h-dvh flex items-center py-16 md:py-20 relative" aria-label="Introduction">
     <div class="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
       <div class="flex flex-col items-start gap-8 md:gap-10 max-w-3xl">
         <!-- Main heading area -->
