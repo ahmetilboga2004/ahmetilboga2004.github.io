@@ -1,0 +1,12 @@
+# Robots.txt for ahmetilboga2004.github.io
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ahmetilboga2004.github.io/sitemap.xml
+
+# Disallow admin or private paths (if any)
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /private/
