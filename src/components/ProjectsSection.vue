@@ -1,22 +1,20 @@
 <script setup>
 import { PROJECTS } from '@/data/data'
 import { ArrowUpRight } from 'lucide-vue-next'
+import { useSectionAnimation } from '@/composables/useSectionAnimation'
+
+const { elementRef, isVisible } = useSectionAnimation()
 </script>
 
 <template>
-  <section class="min-h-dvh flex items-center py-20" aria-labelledby="projects-heading">
+  <section ref="elementRef" class="min-h-screen flex items-center py-20" aria-labelledby="projects-heading">
     <div class="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
-      <header class="mb-16 md:mb-24">
+      <header class="mb-16 md:mb-24 overflow-hidden">
         <h2
           id="projects-heading"
-          class="font-mono text-xs font-medium uppercase tracking-widest text-neutral-500 dark:text-neutral-500 transition-colors duration-300"
-          v-motion
-          :initial="{ opacity: 0, x: -20 }"
-          :visibleOnce="{
-            opacity: 1,
-            x: 0,
-            transition: { duration: 800, type: 'keyframes', ease: 'easeOut' },
-          }"
+          class="font-mono text-xs font-medium uppercase tracking-widest text-neutral-500 dark:text-neutral-500 transition-all duration-1000 transform"
+          :class="isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-5'"
+          style="transition-delay: 200ms"
         >
           Projects
         </h2>
@@ -26,15 +24,10 @@ import { ArrowUpRight } from 'lucide-vue-next'
         <article
           v-for="(project, index) in PROJECTS"
           :key="project.id"
-          class="group grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8"
+          class="group grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 transition-all duration-1000 transform"
+          :class="isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'"
+          :style="{ transitionDelay: `${200 + index * 100}ms` }"
           role="listitem"
-          v-motion
-          :initial="{ opacity: 0, y: 40 }"
-          :visibleOnce="{
-            opacity: 1,
-            y: 0,
-            transition: { duration: 800, delay: index * 150, type: 'keyframes', ease: 'easeOut' },
-          }"
         >
           <!-- Year - Left Column on Desktop -->
           <div class="md:col-span-3">
