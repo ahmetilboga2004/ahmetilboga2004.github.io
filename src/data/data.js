@@ -22,16 +22,6 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     id: '1',
-    title: 'Takasla',
-    category: 'Consumer App / Marketplace',
-    year: '2025',
-    description:
-      'A consumer-focused barter application that enables people to exchange items without using money. Built to simplify item trading and encourage direct value exchange between individuals.',
-    technologies: ['Go', 'Node.js', 'Vue', 'PostgreSQL', 'Redis', 'Docker', 'Tailwind'],
-    link: null,
-  },
-  {
-    id: '2',
     title: 'Turizm Personeli',
     category: 'Job Platform',
     year: '2025',
@@ -40,6 +30,34 @@ export const PROJECTS = [
     technologies: ['Go', 'Node.js', 'Vue', 'PostgreSQL', 'Redis', 'Docker', 'Tailwind'],
     link: null,
   },
+  {
+    id: '2',
+    title: 'ICE - 2D Aim & Reflex Trainer',
+    category: 'Game',
+    year: '2026',
+    description:
+      'ICE | A minimalist, 2D Cyberpunk rhythm-based aim trainer. This is an aim browser-based aim & rhythm development game with different difficulty levels and types, where you can improve your aim for FPS games.',
+    technologies:['Vue'],
+    link: 'https://ice.absolca.com'
+  },
+  {
+    id: '3',
+    title: "AnyKey - Rent Any Key",
+    category: 'Adtech',
+    year: '2026',
+    description: 'AnyKey is a minimalist advertising platform that transforms the keyboard into a digital marketplace. Users can lease any key as a dedicated ad space, turning every keystroke into a gateway that redirects curious explorers to their brand or website.',
+    technologies: ['Go', 'Htmx', 'PostgreSQL', 'JavaScript', 'CSS'],
+    link: 'https://anykey.absolca.com'
+  },
+  {
+    id: '4',
+    title: "LiteRT-LM API Bridge",
+    category: 'AI',
+    year: '2026',
+    description: "LiteBridge is a high-performance and lightweight bridge (gateway) implementation that delivers Google's LiteRT-LM models via an OpenAI-compatible API.",
+    technologies: ['Python', 'Huggingface', 'LiteRT-LM'],
+    link: 'https://github.com/ahmetilboga2004/LiteRT-LM-API-Bridge'
+  }
 ]
 
 export const EXPERIENCE = [
