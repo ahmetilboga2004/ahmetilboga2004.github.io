@@ -52,7 +52,7 @@ export const PROJECTS = [
   {
     id: '4',
     title: "LiteRT-LM API Bridge",
-    category: 'AI',
+    category: 'Open Source',
     year: '2026',
     description: "LiteBridge is a high-performance and lightweight bridge (gateway) implementation that delivers Google's LiteRT-LM models via an OpenAI-compatible API.",
     technologies: ['Python', 'Huggingface', 'LiteRT-LM'],
