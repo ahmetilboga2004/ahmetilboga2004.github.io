@@ -57,6 +57,14 @@ export const PROJECTS = [
     description: "LiteBridge is a high-performance and lightweight bridge (gateway) implementation that delivers Google's LiteRT-LM models via an OpenAI-compatible API.",
     technologies: ['Python', 'Huggingface', 'LiteRT-LM'],
     link: 'https://github.com/ahmetilboga2004/LiteRT-LM-API-Bridge'
+  },
+  {
+    id: '5',
+    title: "Pinokio - Visual UI Feedback Extension",
+    category: 'Extension',
+    year: '2026',
+    description: "Pinokio is a browser extension that provides visual feedback for user interactions on web pages. It enhances user experience by visually indicating actions such as clicks, form submissions, and other interactive events.",
+    technologies: ['TypeScript', 'CSS', 'HTML', 'Vite', 'Supabase'],
   }
 ]
 
