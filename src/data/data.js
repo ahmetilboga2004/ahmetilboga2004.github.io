@@ -1,6 +1,6 @@
 export const HERO_DATA = {
   name: 'Ahmet İlboga',
-  title: 'Full Stack Developer',
+  title: 'Full Stack Vibe;\ Developer',
   bio: 'I develop digital products for people as a solo developer. I mainly work on web applications and backend services. I focus on building products that are useful, easy to use, and based on real user needs.',
   location: 'Istanbul, Turkey',
   open: true,
@@ -14,9 +14,14 @@ export const SKILLS = [
   'Redis',
   'Docker',
   'Vue.js',
+  'Supabase',
+  'MongoDB',
+  'n8n',
+  'Python',
+  'AI Agent Development',
   'Backend Services',
   'System Architecture',
-  'Solo Development',
+  'Frontend Design',
 ]
 
 export const PROJECTS = [
@@ -101,7 +106,7 @@ export const SOCIALS = [
   {
     id: '4',
     name: 'Instagram',
-    url: 'https://www.instagram.com/ahmet_ilboga47/',
-    label: '@ahmet_ilboga47',
+    url: 'https://www.instagram.com/ahmet_ilboga2004/',
+    label: '@ahmet_ilboga2004',
   },
 ]
