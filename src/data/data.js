@@ -106,7 +106,7 @@ export const SOCIALS = [
   {
     id: '4',
     name: 'Instagram',
-    url: 'https://www.instagram.com/ahmet_ilboga2004/',
-    label: '@ahmet_ilboga2004',
+    url: 'https://www.instagram.com/ahmetilboga2004/',
+    label: '@ahmetilboga2004',
   },
 ]
