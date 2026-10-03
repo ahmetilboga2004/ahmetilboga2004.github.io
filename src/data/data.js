@@ -1,6 +1,6 @@
 export const HERO_DATA = {
   name: 'Ahmet İlboga',
-  title: 'Full Stack Vibe;\ Developer',
+  title: 'Full Stack Vibe;\\ Developer',
   bio: 'I develop digital products for people as a solo developer. I mainly work on web applications and backend services. I focus on building products that are useful, easy to use, and based on real user needs.',
   location: 'Istanbul, Turkey',
   open: true,
@@ -24,6 +24,7 @@ export const SKILLS = [
   'Frontend Design',
 ]
 
+// Optional media lives outside this repository. See README.md for the format.
 export const PROJECTS = [
   {
     id: '1',
@@ -52,7 +53,12 @@ export const PROJECTS = [
     year: '2026',
     description: 'AnyKey is a minimalist advertising platform that transforms the keyboard into a digital marketplace. Users can lease any key as a dedicated ad space, turning every keystroke into a gateway that redirects curious explorers to their brand or website.',
     technologies: ['Go', 'Htmx', 'PostgreSQL', 'JavaScript', 'CSS'],
-    link: 'https://anykey.absolca.com'
+    link: 'https://anykey.absolca.com',
+    media: {
+      type: 'image',
+      src: 'https://res.cloudinary.com/dixccpr9/image/upload/v1791032089/anykey.png',
+      alt: 'AnyKey - Rent Any Key',
+    },
   },
   {
     id: '4',

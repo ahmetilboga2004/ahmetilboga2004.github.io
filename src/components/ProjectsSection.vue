@@ -2,6 +2,7 @@
 import { PROJECTS } from '@/data/data'
 import { ArrowUpRight } from 'lucide-vue-next'
 import { useSectionAnimation } from '@/composables/useSectionAnimation'
+import ProjectMediaGallery from './ProjectMediaGallery.vue'
 
 const { elementRef, isVisible } = useSectionAnimation()
 </script>
@@ -80,6 +81,12 @@ const { elementRef, isVisible } = useSectionAnimation()
             >
               {{ project.description }}
             </p>
+
+            <ProjectMediaGallery
+              v-if="project.media?.length"
+              :project-title="project.title"
+              :media="project.media"
+            />
 
             <ul class="flex flex-wrap gap-x-4 gap-y-2" aria-label="Technologies used">
               <li
