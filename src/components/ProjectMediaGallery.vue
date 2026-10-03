@@ -178,9 +178,17 @@ onBeforeUnmount(() => {
           />
         </div>
 
-        <div class="flex items-center justify-between gap-4">
-          <p class="min-w-0 text-sm text-neutral-300">{{ activeItem.alt }}</p>
-          <div v-if="media.length > 1" class="flex shrink-0 gap-2">
+        <div
+          v-if="media.length > 1 || (activeItem.type !== 'image' && activeItem.alt)"
+          class="flex items-center justify-between gap-4"
+        >
+          <p
+            v-if="activeItem.type !== 'image' && activeItem.alt"
+            class="min-w-0 text-sm text-neutral-300"
+          >
+            {{ activeItem.alt }}
+          </p>
+          <div v-if="media.length > 1" class="ml-auto flex shrink-0 gap-2">
             <button
               type="button"
               class="rounded border border-neutral-700 p-2 hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-white"

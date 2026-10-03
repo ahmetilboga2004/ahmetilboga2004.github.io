@@ -1,5 +1,6 @@
 export const HERO_DATA = {
   name: 'Ahmet İlboga',
+  portrait: 'https://res.cloudinary.com/dixccpr9/image/upload/v1791034533/M%C3%BCrekkep_%C3%87emberli_Anime_Portresi.png',
   title: 'Full Stack Vibe;\\ Developer',
   bio: 'I develop digital products for people as a solo developer. I mainly work on web applications and backend services. I focus on building products that are useful, easy to use, and based on real user needs.',
   location: 'Istanbul, Turkey',
@@ -44,7 +45,20 @@ export const PROJECTS = [
     description:
       'ICE | A minimalist, 2D Cyberpunk rhythm-based aim trainer. This is an aim browser-based aim & rhythm development game with different difficulty levels and types, where you can improve your aim for FPS games.',
     technologies:['Vue'],
-    link: 'https://ice.absolca.com'
+    link: 'https://ice.absolca.com',
+    media: [
+      {
+        type: 'image',
+        src: 'https://res.cloudinary.com/dixccpr9/image/upload/v1791032946/Screenshot_from_2026-10-03_16-06-52.png',
+        alt: 'ICE - 2D Aim & Reflex Trainer',
+      },
+      {
+        type: 'image',
+        src: 'https://res.cloudinary.com/dixccpr9/image/upload/v1791032947/Screenshot_from_2026-10-03_16-07-52.png',
+        alt: 'ICE - 2D Aim & Reflex Trainer',
+      },
+
+    ],
   },
   {
     id: '3',
@@ -54,11 +68,13 @@ export const PROJECTS = [
     description: 'AnyKey is a minimalist advertising platform that transforms the keyboard into a digital marketplace. Users can lease any key as a dedicated ad space, turning every keystroke into a gateway that redirects curious explorers to their brand or website.',
     technologies: ['Go', 'Htmx', 'PostgreSQL', 'JavaScript', 'CSS'],
     link: 'https://anykey.absolca.com',
-    media: {
+    media: [
+      {
       type: 'image',
       src: 'https://res.cloudinary.com/dixccpr9/image/upload/v1791032089/anykey.png',
       alt: 'AnyKey - Rent Any Key',
-    },
+    }
+  ],
   },
   {
     id: '4',
@@ -76,6 +92,18 @@ export const PROJECTS = [
     year: '2026',
     description: "Pinokio is a browser extension that provides visual feedback for user interactions on web pages. It enhances user experience by visually indicating actions such as clicks, form submissions, and other interactive events.",
     technologies: ['TypeScript', 'CSS', 'HTML', 'Vite', 'Supabase'],
+    media: [
+      {
+        type: 'image',
+        src: 'https://res.cloudinary.com/dixccpr9/image/upload/v1791032117/Screenshot_from_2026-10-02_18-48-48.png',
+        alt: 'Pinokio - Visual UI Feedback Extension',
+      },
+      {
+        type: 'image',
+        src: 'https://res.cloudinary.com/dixccpr9/image/upload/v1791032118/Screenshot_from_2026-10-02_18-49-09.png',
+        alt: 'Pinokio - Visual UI Feedback Extension',
+      }
+    ],
   }
 ]
 

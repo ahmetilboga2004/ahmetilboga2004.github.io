@@ -9,9 +9,19 @@ const { elementRef, isVisible } = useSectionAnimation({ threshold: 0 })
 <template>
   <section ref="elementRef" class="min-h-screen flex items-center py-16 md:py-20 relative" aria-label="Introduction">
     <div class="w-full max-w-6xl mx-auto px-6 md:px-12 lg:px-16">
-      <div class="flex flex-col items-start gap-8 md:gap-10 max-w-3xl">
+      <div class="flex max-w-4xl flex-col items-start gap-8 md:gap-10">
+        <img
+          :src="HERO_DATA.portrait"
+          :alt="`Illustrated portrait of ${HERO_DATA.name}`"
+          width="384"
+          height="384"
+          fetchpriority="high"
+          class="block h-auto w-60 max-w-full sm:w-72 md:w-80 lg:w-96 transition-all duration-1200 transform"
+          :class="isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'"
+        />
+
         <!-- Main heading area -->
-        <header class="flex flex-col gap-6">
+        <header class="flex w-full flex-col gap-6">
           <h1
             class="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-none tracking-tight text-neutral-900 dark:text-neutral-50 transition-all duration-1200 transform"
             :class="isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'"
